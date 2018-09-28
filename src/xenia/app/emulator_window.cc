@@ -266,7 +266,7 @@ bool EmulatorWindow::Initialize() {
 
   window_->set_main_menu(std::move(main_menu));
 
-  window_->Resize(1280, 720);
+  window_->Resize(1920, 1080);
 
   window_->DisableMainMenu();
 
