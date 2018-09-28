@@ -201,7 +201,7 @@ void TracePlayer::PlayTraceOnThread(const uint8_t* trace_data,
 
   playing_trace_ = false;
   command_processor->set_swap_mode(SwapMode::kNormal);
-  command_processor->IssueSwap(0, 1280, 720);
+  command_processor->IssueSwap(0, 1920, 1080);
 
   playback_event_->Set();
 }
