@@ -138,8 +138,8 @@ VkResult VulkanSwapChain::Initialize(VkSurfaceKHR surface) {
     assert_true(surface_caps.currentExtent.height == -1);
     // Undefined extents, so we need to pick something.
     XELOGI("Swap chain target surface extents undefined; guessing value");
-    extent.width = 1280;
-    extent.height = 720;
+    extent.width = 1920;
+    extent.height = 1080;
   }
   surface_width_ = extent.width;
   surface_height_ = extent.height;
